@@ -1,0 +1,39 @@
+
+.info-table {
+    border-spacing: 0;
+    width: 100%;
+    color: #314351;
+    font-size: 0.800em;
+    line-height: 1em;
+    margin-bottom: 1px;
+    font-family: "museo-sans",sans-serif; 
+    border: 2px solid #367fa9;
+}
+
+
+
+ th, .siglas td{
+    background: #367fa9;
+    text-align: left;
+    font-size: 1.290em;
+    line-height: 1.538em;
+    padding: 2px 20px 2px 23px;
+    color: #ddedfa;
+    text-shadow: 0px -1px 1px rgba(0, 81, 168, 0.38);
+    border-color: #367fa9;
+    font-weight: 900;
+}
+
+
+
+
+ th:last-child {
+    text-align: center;
+}
+
+
+ td,  td:last-child {
+    padding: 3px 35px 3px 35px;
+    font-size: 1.1em;
+}
+

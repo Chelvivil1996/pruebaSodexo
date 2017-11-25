@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+body  {
+    background-image: url("https://i.pinimg.com/236x/fa/6a/95/fa6a95e71d181ae6ac1f7586f0d8515a--concrete-texture-pattern-pictures.jpg");
+    background-repeat: repeat;
+    background-color: #ecf0f5; 
+    z-index: -90;
+
+}
+.tablescroll {
+ overflow-y: auto;
+  overflow-x: hidden;
+  height: 189px;
+  margin-right: 1px;
+}
+.ggg{
+ 
+  padding-right: 5%;
+  padding-left: 5%;
+  margin: auto;
+}
+.fondo_blanco{
+    background: #f2f2f2 !important ;
+    z-index: 1;
+}
+
+.background_nav{
+    background: #367fa9 !important ;
+}
+.background_nav_elements > a{
+
+  font-size: 17px;
+  font-weight: 600;
+  color: #f2f2f2 !important;
+}
+.login_element > a{
+  font-size: 17px;
+  font-weight: 600;
+  color: #f2f2f2 !important;
+}
+
+table {
+  text-align: left;
+  line-height: 40px;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border: 2px solid #367fa9;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: .25rem;
+}
+
+thead tr:first-child {
+  background: #367fa9;
+  color: #fff;
+  border: none;
+}
+
+th:first-child,
+td:first-child {
+  padding: 0 15px 0 20px;
+}
+.dropdown-menu {
+  min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+  min-width: 600px;
+}
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.multi-column-dropdown {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: #333;
+  white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+
+
+    .fa{
+      margin-right: 10px;
+      font-size:14px;
+    }
+
+
+
+
+/*tabla 2*/

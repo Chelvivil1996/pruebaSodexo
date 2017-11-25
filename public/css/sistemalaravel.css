@@ -1,0 +1,137 @@
+
+.aprobado{
+
+  background-color: #E9FCFA;
+  border: 1px dashed #006600;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.rechazado{
+
+  background-color: #FFEDED;
+  border: 1px dashed #FA206A;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* leccion 7*/
+
+.div_modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #002640;
+  opacity: .80;
+  -webkit-opacity: .8;
+  -moz-opacity: .8;
+  filter: alpha(opacity=80);
+  z-index: 820;
+}
+
+
+.div_contenido {
+  background-color: #ecf0f5;
+  box-shadow: 0 0 20px 0 #222;
+  -webkit-box-shadow: 0 0 20px 0 #222;
+  -moz-box-shadow: 0 0 20px 0 #222;
+  display: none;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  min-height: 90%;
+  z-index: 830;
+}
+
+
+  a:link.btn_login, a:visited.btn_login {
+    background-color: #f44336;
+    color: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover.btn_login  , a:active.btn_login {
+    background-color: red;
+  }
+
+.botonMenu{
+  background-color: #f2f2f2 !important;
+}
+.botonMenu:hover {
+    background-color: #0092be !important;  
+}
+
+ .botonMenu:hover > span {
+    background-color: #f2f2f2 !important;  
+}
+
+
+
+/*NAV LOGO*/
+.logo-h{
+  margin: -12px 30px 0px 0px;
+  height: 35px;
+  width: 35px;
+}
+
+
+
+
+/**/
+.mc-btn{
+  margin: auto;
+  background-color: #2c3b41;
+  text-align: center;
+}
+/*https://codepen.io/Grsmto/pen/RPQPPB*/
+/*.btn-descarga {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 5% 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+*/
+
+/**/
+
+.btn-descarga  {
+  outline: none;
+  width: 200px;
+  height: 50px;
+  background: #48CFAD;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #37BC9B;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .1s;
+  
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.contenedor-descarga :active {
+  border-width: 0px 0px 2px 0px; 
+  transform: translateY(4px);
+  opacity: 0.9;
+}
+
